@@ -5,6 +5,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 		numericos();
+		cadenas();
 		
 	}
 	
@@ -45,4 +46,14 @@ public class Main {
 	    System.out.println(doble);
 	    
 	    }
+
+		
+	
+	public static void cadenas() {
+		String texto;
+		texto = "Hola mundo";
+		System.out.println("-------------------");
+		System.out.println(texto);
+	}
+
 }
